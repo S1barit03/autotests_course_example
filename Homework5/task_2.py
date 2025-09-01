@@ -7,7 +7,7 @@
 
 
 def repeats(our_str):
-    new_str = {letter: '_' + our_str.count(letter) for letter in set(our_str)}
+    new_str = {letter: '_' + str(our_str.count(letter)) for letter in set(our_str)}
     return new_str
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
